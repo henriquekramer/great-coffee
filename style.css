@@ -1,0 +1,117 @@
+/*===== RESET ==========================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===== VARIABLES ==========================*/
+:root {
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+
+  /* fonts */
+  --title-font-size: 5rem;
+  --body-font: 'Manrope', sans-serif;
+}
+
+/*===== BASE ==========================*/
+body {
+  font: 1rem var(--body-font);
+  color: var(--text-color);
+  background: var(--backgrond);
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main{
+  text-align: center;
+  height: 100%;
+}
+
+main h1{
+  font-size: var(--title-font-size);
+  margin-top: 2.5rem;
+}
+
+main h1 span{
+  color: black;
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+.container.main{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#coffee{
+  position: absolute;
+  bottom: 0;
+}
+
+/*===== BLUR ==========================*/
+.blur-bottom-left{
+  position: absolute;
+  bottom: 0;
+}
+
+.blur-top-right{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+
+
+/*===== NAVIGATION ==========================*/
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4.5rem;
+}
+
+.grid {
+  display: flex;
+  gap: 2rem; 
+  font-size: 0.875rem;
+  color: red;
+}
+
+.grid a{
+  color: var(--text-color)
+}
+
+nav ul li {
+  text-align: center;
+}
+
+.button{
+  border: 1px solid var(--button);
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--text-color);
+  padding: 11px 38px;
+  border-radius: 6px;
+}
