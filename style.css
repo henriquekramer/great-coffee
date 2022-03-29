@@ -122,6 +122,10 @@ nav{
   height: 4.5rem;
 }
 
+.menu {
+  margin-left: 8.75rem;
+}
+
 .navList {
   display: flex;
   gap: 2rem; 
