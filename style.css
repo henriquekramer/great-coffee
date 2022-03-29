@@ -192,7 +192,13 @@ nav ul li a:hover{
 }
 
 /*===== RESPONSIVIDADE ==========================*/
-@media (max-width: 675px){
+@media (max-width: 838px){
+  .menu{
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 690px){
   header {
     /* border-bottom: 1px solid #29292E; */
     background: black;
